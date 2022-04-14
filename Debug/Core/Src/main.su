@@ -1,0 +1,47 @@
+at_cmd_parser.h:104:5:ATCmdParser::ATCmdParser(const char*, int, int, bool)	24	static
+at_cmd_parser.h:117:5:ATCmdParser::~ATCmdParser()	24	static
+at_cmd_parser.h:132:9:int ATCmdParser::set_timeout(uint32_t)	16	static
+at_cmd_parser.h:148:10:void ATCmdParser::set_delimiter(const char*)	16	static
+at_cmd_parser.h:159:10:void ATCmdParser::debug_on(uint8_t)	16	static
+main.cpp:232:8:int8_t setEchoStatus_BG96(bool)	16	static
+main.cpp:263:8:int8_t getUsimStatus_BG96()	72	static
+main.cpp:284:8:int8_t getNetworkStatus_BG96()	136	static
+main.cpp:307:6:void serialAtParserInit()	8	static
+main.cpp:312:6:void catm1DeviceInit()	8	static
+main.cpp:322:8:int8_t waitCatM1Ready()	8	static
+main.cpp:340:6:bool initStatus()	8	static
+main.cpp:363:8:int8_t checknSetApn_BG96(const char*)	184	static
+main.cpp:410:6:void getIMEIInfo_BG96()	72	static
+main.cpp:423:8:int8_t getFirmwareVersion_BG96(char*)	24	static
+main.cpp:434:8:int8_t getImeiNumber_BG96(char*)	24	static
+main.cpp:449:8:int8_t getIpAddressByName_BG96(const char*, char*)	96	static
+main.cpp:478:6:void setContextActivate_BG96()	8	static
+main.cpp:486:8:int8_t setContextDeactivate_BG96()	8	static
+main.cpp:494:8:int8_t getIpAddress_BG96(char*)	40	static
+main.cpp:510:8:int8_t openMqttBroker_BG96(char*, int)	48	static
+main.cpp:549:8:int8_t connectMqttBroker_BG96(char*, char*, char*)	160	static
+main.cpp:607:8:int8_t closeMqttBroker_BG96()	32	static
+main.cpp:635:8:int8_t sendMqttPublishMessage_BG96(char*, int, int, char*, int)	176	static
+main.cpp:678:8:int8_t setMqttSubscribeTopic_BG96(char*, int, int)	64	static
+main.cpp:711:8:int8_t checkRecvMqttMessage_BG96(char*, int*, char*)	40	static
+main.cpp:725:6:void dumpMqttSubscribeTopic_BG96(char*, int, int)	136	static
+main.cpp:732:6:void dumpMqttPublishMessage_BG96(char*, char*)	120	static
+main.cpp:743:8:int8_t setMqttTlsEnable_BG96(bool)	40	static
+main.cpp:762:8:int8_t saveFileToStorage_BG96(char*, const char*, int)	64	static
+main.cpp:794:8:int8_t eraseFileStorageAll_BG96()	16	static
+main.cpp:809:6:void dumpFileList_BG96()	56	static
+main.cpp:842:8:int8_t setTlsCertificatePath_BG96(char*, char*)	32	static
+main.cpp:856:8:int8_t setTlsConfig_sslversion_BG96(int)	48	static
+main.cpp:870:8:int8_t setTlsConfig_ciphersuite_BG96(char*)	48	static
+main.cpp:884:8:int8_t setTlsConfig_seclevel_BG96(int)	48	static
+main.cpp:898:8:int8_t setTlsConfig_ignoreltime_BG96(bool)	56	static
+main.cpp:917:8:int8_t aws_iot_connection_process()	8	static
+main.cpp:963:8:int8_t setGpsOnOff_BG96(bool)	96	static
+main.cpp:985:8:int8_t getGpsLocation_BG96(gps_data)	256	static
+main.cpp:1070:5:int bg96_DeviceRST(int)	16	static
+main.cpp:1096:5:int main()	304	static
+main.cpp:1335:6:void SystemClock_Config()	88	static
+main.cpp:1382:6:void Error_Handler()	4	static,ignoring_inline_asm
+main.cpp:1391:1:void __static_initialization_and_destruction_0(int, int)	24	static
+main.cpp:1391:1:cpp)	8	static
+main.cpp:1391:1:cpp)	8	static
